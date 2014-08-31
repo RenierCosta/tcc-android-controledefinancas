@@ -1,0 +1,11 @@
+Tutorial sobre versionamento usando svn e google code(30/08/2014):
+  https://www.youtube.com/watch?v=DtOgqzO6x0w
+
+Controlando versoes com google code e eclipese(30/08/2014):
+  http://www.devmedia.com.br/controlando-versoes-com-google-code-e-eclipse/29323
+  
+Apredendo sobre licenças open source(30/08/2014) :
+  http://opensource.org/licenses
+  
+Licenças Open Source: qual a melhor?(30/08/2014)
+  https://www.ibm.com/developerworks/community/blogs/ctaurion/entry/licen_c3_a7as_open_source_qual_a?lang=en
