@@ -9,3 +9,7 @@ Apredendo sobre licenças open source(30/08/2014) :
   
 Licenças Open Source: qual a melhor?(30/08/2014)
   https://www.ibm.com/developerworks/community/blogs/ctaurion/entry/licen_c3_a7as_open_source_qual_a?lang=en
+
+
+RabbitVCS - Cliente SVN para Linux(01/03/2015)
+  http://www.vivaolinux.com.br/dica/RabbitVCS-Cliente-SVN-para-Linux
