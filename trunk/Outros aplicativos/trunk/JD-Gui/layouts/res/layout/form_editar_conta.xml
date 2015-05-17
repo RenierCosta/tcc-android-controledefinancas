@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text1" android:text="@string/Banco" />
+        <EditText android:id="@id/campoBanco" android:layout_width="fill_parent" android:inputType="textCapSentences" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text2" android:text="@string/Agencia" />
+        <EditText android:id="@id/campoAgencia" android:inputType="number" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text3" android:text="@string/ContaCorrente" />
+        <EditText android:id="@id/campoNConta" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text4" android:text="@string/SaldoInicial" />
+        <EditText android:id="@id/campoValorInicial" android:inputType="textCapSentences" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text5" android:text="@string/SaldoAtual" />
+        <EditText android:enabled="false" android:id="@id/campoValorAtual" />
+    </TableRow>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <Button android:id="@id/btSalvarConta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Salvar" />
+        <Button android:id="@id/btCancelarConta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cancelar" />
+        <Button android:id="@id/btExcluirConta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Excluir" />
+    </LinearLayout>
+</TableLayout>

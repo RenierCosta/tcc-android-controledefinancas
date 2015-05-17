@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff000000" android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Descricao" />
+            <EditText android:id="@id/campoDescricao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+            <TextView android:textColor="#ff000000" android:id="@id/textEmpresa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Participante" />
+            <Spinner android:id="@id/comboEmpresa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/comboEmpresa" />
+            <TextView android:textColor="#ff000000" android:id="@id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Vencimento" />
+            <Button android:textSize="20.0px" android:id="@id/btCampoVencimento" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textColor="#ff000000" android:id="@id/textConta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Conta1" />
+            <Spinner android:id="@id/comboConta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/comboConta" />
+            <TextView android:textColor="#ff000000" android:id="@id/text5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Categoria1" />
+            <Spinner android:id="@id/comboCategoria" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/comboCategoria" />
+            <TextView android:textColor="#ff000000" android:id="@id/text3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Situacao" />
+            <Spinner android:id="@id/comboStatus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/comboStatus" />
+            <TextView android:textColor="#ff000000" android:id="@id/text4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Valor" />
+            <EditText android:id="@id/campoValor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" />
+            <TextView android:textColor="#ff000000" android:id="@id/textObs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Observacao" />
+            <EditText android:id="@id/campoObservacao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="3" android:inputType="textMultiLine" />
+            <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:textColor="@color/preto" android:id="@id/checkReplicar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Replicar" />
+                <TextView android:textColor="#ff000000" android:id="@id/textQtdParcela" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:text="@string/Qtd" />
+                <EditText android:enabled="false" android:id="@id/campoQtdParcela" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <Button android:id="@id/btSalvarLancamento" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Salvar" />
+                <Button android:id="@id/btCancelarLancamento" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cancelar" />
+                <Button android:id="@id/btExcluirLancamento" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Excluir" />
+                <Button android:id="@id/btBaixarLancamento" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Baixar" />
+            </LinearLayout>
+            <Button android:id="@id/btVisualizarPagamento" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Pagamento" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

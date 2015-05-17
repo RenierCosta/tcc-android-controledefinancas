@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow>
+            <TextView android:layout_gravity="center_vertical" android:id="@id/CON_ST_BANCO" android:layout_width="130.0sp" android:layout_height="wrap_content" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/CON_IN_NCONTA" android:layout_width="100.0sp" android:layout_height="wrap_content" />
+            <TextView android:layout_gravity="right" android:id="@id/CON_RE_VALORATUAL" android:paddingRight="10.0px" android:layout_width="100.0sp" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

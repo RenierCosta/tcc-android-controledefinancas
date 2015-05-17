@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow>
+            <TextView android:textColor="#ff000000" android:id="@id/text1" android:text="@string/Nome" />
+            <EditText android:id="@id/campoNomeEmpresa" android:layout_width="fill_parent" android:inputType="textCapSentences" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="#ff000000" android:id="@id/text2" android:text="@string/Telefone" />
+            <EditText android:id="@id/campoTelefoneEmpresa" android:phoneNumber="true" />
+        </TableRow>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:id="@id/btSalvarEmpresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Salvar" />
+            <Button android:id="@id/btCancelarEmpresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cancelar" />
+            <Button android:id="@id/btExcluirEmpresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Excluir" />
+        </LinearLayout>
+        <ImageButton android:id="@id/btLigarEmpresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Ligar" />
+    </TableLayout>
+</ScrollView>

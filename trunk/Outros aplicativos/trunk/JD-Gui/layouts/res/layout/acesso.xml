@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ImageView01" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:src="@drawable/logo2" />
+    </TableRow>
+    <TableRow android:gravity="center">
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/labelSenha" android:text="@string/Senha" />
+    </TableRow>
+    <TableRow android:gravity="center">
+        <EditText android:id="@id/campoSenha" android:padding="3.0dip" android:layout_width="100.0pt" android:inputType="textPassword" />
+    </TableRow>
+    <TableRow android:gravity="center">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/btEntrarAcesso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_ok" />
+            <ImageButton android:id="@id/btCancelarAcesso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_cancel" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

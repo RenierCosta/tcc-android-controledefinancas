@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.controleFinanceiro">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application android:description="@string/app_name" android:icon="@drawable/icone" android:label="Controle Financeiro" android:theme="@android:style/Theme.Light">
+        <activity android:label="@string/app_name" android:name=".categoria.CadastroCategoria"/>
+        <activity android:label="@string/Categoria" android:name=".categoria.EditarCategoria"/>
+        <activity android:label="@string/Conta" android:name=".conta.CadastroConta"/>
+        <activity android:label="@string/Conta" android:name=".conta.EditarConta"/>
+        <activity android:label="@string/Lancamento" android:name=".lancamento.CadastroLancamento"/>
+        <activity android:label="@string/Lancamento" android:name=".lancamento.EditarLancamento"/>
+        <activity android:label="@string/Resumo" android:name=".lancamento.ResumoLancamento"/>
+        <activity android:label="@string/Categoria" android:name=".lancamento.ResumoCategoria"/>
+        <activity android:label="@string/Empresa" android:name=".empresa.CadastroEmpresa"/>
+        <activity android:label="@string/Empresa" android:name=".empresa.EditarEmpresa"/>
+        <activity android:label="@string/app_name" android:name=".principal.Inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".principal.Principal"/>
+        <activity android:label="@string/app_name" android:name=".principal.Acesso"/>
+        <activity android:label="@string/Configuracao" android:name=".configuracao.Configuracao"/>
+    </application>
+</manifest>
