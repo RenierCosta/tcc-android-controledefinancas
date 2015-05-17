@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text1" android:text="@string/Desconto" />
+        <EditText android:id="@id/campoDesconto" android:layout_width="wrap_content" android:inputType="text" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text2" android:text="@string/Multa" />
+        <EditText android:id="@id/campoMulta" android:layout_width="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/text2" android:text="@string/Pagamento1" />
+        <Button android:textSize="20.0px" android:id="@id/btCampoPagamento" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="20.0px">
+        <Button android:id="@id/btSalvarEditarBaixar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Salvar" />
+        <Button android:id="@id/btCancelarEditarBaixar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cancelar" />
+    </LinearLayout>
+</TableLayout>

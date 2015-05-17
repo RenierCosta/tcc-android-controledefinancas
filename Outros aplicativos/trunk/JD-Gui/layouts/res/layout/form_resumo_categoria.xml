@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff000000" android:id="@id/text5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Categoria1" />
+            <Spinner android:id="@id/comboResumoCategoria" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/comboCategoria" />
+            <Button android:textSize="20.0px" android:id="@id/btResumoCategoriaIntervaloInicial" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:textSize="20.0px" android:id="@id/btResumoCategoriaIntervaloFinal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:id="@id/btResumoCategoria" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Buscar" />
+            <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" />
+            <TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1">
+                <TableRow>
+                    <TextView android:textSize="20.0dip" android:textColor="@color/preto" android:id="@id/labelTotalCategoria" android:text="@string/Total" />
+                    <TextView android:textSize="20.0dip" android:textColor="@color/preto" android:layout_gravity="right" android:id="@id/campoTotalCategoria" android:text="0,00" />
+                </TableRow>
+                <View android:background="#ff909090" android:layout_height="2.0dip" />
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

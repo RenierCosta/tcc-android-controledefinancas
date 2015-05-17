@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/labelAlterarSenha" android:layout_width="wrap_content" android:text="@string/NovaSenha" />
+        <EditText android:id="@id/campoAlterarSenha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textPassword" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textColor="#ff000000" android:id="@id/labelConfirmarSenha" android:layout_width="wrap_content" android:text="@string/Confirmacao" />
+        <EditText android:id="@id/campoConfirmarSenha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textPassword" />
+    </TableRow>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <Button android:id="@id/btSalvarEditarSenha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Salvar" />
+        <Button android:id="@id/btCancelarEditarSenha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Cancelar" />
+    </LinearLayout>
+</TableLayout>

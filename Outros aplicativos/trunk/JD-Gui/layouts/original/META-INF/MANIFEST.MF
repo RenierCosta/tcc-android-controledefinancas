@@ -1,0 +1,171 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_23 (Sun Microsystems Inc.)
+
+Name: res/drawable/info.png
+SHA1-Digest: rGJH065UcI5HRsy/48AKkWO4sLU=
+
+Name: res/layout/sobre.xml
+SHA1-Digest: Z1KwqNjOYr7Au74iQG3MwXXjf6I=
+
+Name: res/drawable/empresas.png
+SHA1-Digest: hzZAgoHqk2wx96X40l6QvGJ7Fqg=
+
+Name: res/layout/janela_alterar_senha.xml
+SHA1-Digest: mCGYMFk8AzijDNY1yTX0vGfKULU=
+
+Name: res/drawable/logo.png
+SHA1-Digest: KY6WiF3vvSBOSBo8ixH00DrZ2/M=
+
+Name: res/drawable/resumo.png
+SHA1-Digest: CIyjJ/CYWta5c4RgVitSALtZX2s=
+
+Name: res/drawable/pendentes.png
+SHA1-Digest: /SyyQvm+K686MVMjPmdWE2eZuTs=
+
+Name: res/layout/acesso.xml
+SHA1-Digest: FWtXSrvwupfjSx0DL3CHJWpBJu0=
+
+Name: res/layout/form_resumo_lancamento.xml
+SHA1-Digest: JOGsH96aVDKMcgshGFcZbB0L+Fg=
+
+Name: res/drawable/lancamentos.png
+SHA1-Digest: +ll8SjBAHP5ju7L49bn0NpXaEGU=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: i7vxaosoiS+9HzKB7ZgIsXMYRLY=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: res/layout/janela_editar_categoria.xml
+SHA1-Digest: wuzRTzT6mn9SXnuLFvtP3hxKFyE=
+
+Name: res/layout/janela_editar_empresa.xml
+SHA1-Digest: llnM4U3ReA25/ETQq+Vb/INOFxw=
+
+Name: res/drawable/aviso.png
+SHA1-Digest: gvlmPWXmRk/Xin49EQmO9hQ2AuI=
+
+Name: res/layout/janela_visualizar_pagamento.xml
+SHA1-Digest: sfxoR0/ArWyhY8fDBuRsKrR4aIk=
+
+Name: res/drawable/alerta.jpg
+SHA1-Digest: GKGz1bzj6DCwuseIM6RhOmgR/Tw=
+
+Name: res/layout/categoria_linha_tabela.xml
+SHA1-Digest: 3Txtcs99fGB660JsuhcwRf43kS4=
+
+Name: res/drawable/categorias.png
+SHA1-Digest: yBDpCvo8OjrefXNuYAXJaiS2YKw=
+
+Name: res/layout/form_editar_lancamento.xml
+SHA1-Digest: g+Kj3VtK2Wm3X0e1H0JAvHu6nrw=
+
+Name: res/layout/janela_baixa.xml
+SHA1-Digest: oRRnUCGw4+0c4zn/b63TyTtjlEI=
+
+Name: res/drawable/contas.png
+SHA1-Digest: 47toGMiGw66n1m17weQwGwncg/U=
+
+Name: res/layout/lancamento_linha_tabela.xml
+SHA1-Digest: CyOGyB0xmD2g1KgduYMluhFbH4Q=
+
+Name: res/drawable/button_ok.png
+SHA1-Digest: FnYPww9GGMcA6xMkZ4MQo4rIPFE=
+
+Name: res/layout/janela_selecionar_data.xml
+SHA1-Digest: 3dPGtloIwnNXqdFNCDSFRVCXMXw=
+
+Name: res/layout/main.xml
+SHA1-Digest: mNhReeqS1cSfOO6vc9wKHKMezLU=
+
+Name: res/drawable/ok.jpg
+SHA1-Digest: 0/o3NGek8O5va/lPxxBaEnqpNO8=
+
+Name: res/drawable/todos.png
+SHA1-Digest: B6TMFJIXAH1TYqXSO5WxjxZxaeg=
+
+Name: res/drawable/aberto.png
+SHA1-Digest: rNFz6s3zKM+MxR8UKjcti7WcRRk=
+
+Name: res/layout/conta_linha_tabela.xml
+SHA1-Digest: y+ltih6+WE6icy4jb1BBg6ZAYsk=
+
+Name: res/drawable/configuracao.png
+SHA1-Digest: OfUQEeOisePIVOaLPmfbHRchhI4=
+
+Name: res/drawable/icone.png
+SHA1-Digest: SGOq+O8qK2nscoAT4ghvxbL4uuk=
+
+Name: res/drawable/concluido.png
+SHA1-Digest: XTfd5YqyECqPtzS5VonFgl/Bju4=
+
+Name: res/drawable/sobre.png
+SHA1-Digest: JT9eMPgRBU+46YRE8iLJceQrNkA=
+
+Name: res/layout/empresa_linha_tabela.xml
+SHA1-Digest: puindAXYvnDU+Phqd2VRN7NQ138=
+
+Name: res/layout/form_editar_empresa.xml
+SHA1-Digest: zAUi8vvowKoyeM8dpyiQKlFNnQs=
+
+Name: res/drawable/sair.png
+SHA1-Digest: Nw7RgJMH7c6fLfOA9Vajf3fNQKI=
+
+Name: res/layout/inicio.xml
+SHA1-Digest: ioUT67oObVWy4IwzT1J7XOpAnik=
+
+Name: res/layout/form_editar_categoria.xml
+SHA1-Digest: UP6/DDqcD3N5YMezOi2aqS9Bve4=
+
+Name: resources.arsc
+SHA1-Digest: TqeLI3F4wtzerwQuD1m1g/TgDKA=
+
+Name: res/drawable/inserir.png
+SHA1-Digest: WOSK1Bx/Pvvmuua2rHVZqylJ1LM=
+
+Name: res/layout/form_resumo_categoria.xml
+SHA1-Digest: uUMFgQEpwpQ9JFS5j8Dmf9qEhvE=
+
+Name: res/drawable/entrar.png
+SHA1-Digest: pmcStoy3gGKHtPEFbtA9SnxpvrU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: aaIXJOSVtbJ3ZVxmHa20wSCs3oM=
+
+Name: res/drawable/visualizar.png
+SHA1-Digest: jsNBeAWquBpgV2TNFoGJBQomYtc=
+
+Name: res/drawable/logo3.png
+SHA1-Digest: jpMRvXbrrDTdnaJr56fw9xgZpng=
+
+Name: res/layout/form_configuracao.xml
+SHA1-Digest: bKFYjGyrP5QlYa5m+JHhRxCRyKg=
+
+Name: res/layout/form_editar_conta.xml
+SHA1-Digest: BWA4oP/wNLApmYkNW/VS83f4DEo=
+
+Name: res/drawable/logo2.png
+SHA1-Digest: LMVRw8z+Lm8bNNpHHVEYYA9C6zc=
+
+Name: res/drawable/busca.png
+SHA1-Digest: A9fg538sQIKpHHgZayqHFwihqkM=
+
+Name: res/drawable/editar.png
+SHA1-Digest: T3ruFrK9ubJOMdNyNwEHmWfOSHs=
+
+Name: classes.dex
+SHA1-Digest: VNSvepwOF3HLx2SxK7/DMS4nZ/U=
+
+Name: res/drawable/button_cancel.png
+SHA1-Digest: SYqbp3Cz5BuW1f7xPHLq3SH1zAY=
+
+Name: res/drawable/buscar.png
+SHA1-Digest: amurp41489ZRgamayh3EVIbZK3w=
+
+Name: res/drawable/vencido.jpg
+SHA1-Digest: jjU4Dk8ZgOOezGljzb1LRRSXdaM=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: Vj/qhxk8ic8FE0/kT6E3vgRJ4mE=
+

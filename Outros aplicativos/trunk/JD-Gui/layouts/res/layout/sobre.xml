@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ImageView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/logo3" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_height="2.0dip" />
+        <TableRow android:layout_marginTop="10.0px">
+            <TextView android:typeface="serif" android:textColor="@color/preto" android:id="@id/labelDesenvolvido" android:layout_width="wrap_content" android:text="@string/DesenvolvidoPor" />
+        </TableRow>
+        <TableRow android:layout_marginTop="10.0px">
+            <TextView android:typeface="serif" android:textColor="@color/preto" android:id="@id/labelEmail" android:layout_width="wrap_content" android:text="@string/DuvidasCorrecoes" />
+        </TableRow>
+        <TableRow>
+            <TextView android:typeface="serif" android:textColor="@color/azul" android:id="@id/labelEmail" android:text="contato@ikoa.com.br" />
+        </TableRow>
+        <View android:background="#ff909090" android:layout_height="2.0dip" android:layout_marginTop="10.0px" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0px">
+            <Button android:layout_gravity="bottom" android:id="@id/btOkSobre" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Ok" />
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>
