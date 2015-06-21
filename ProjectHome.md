@@ -1,0 +1,1 @@
+Aplicativo gratuito para Android, de controle de finanças.
